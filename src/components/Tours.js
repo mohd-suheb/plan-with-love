@@ -1,13 +1,14 @@
 import React from 'react'
+import Card from './Card';
 
 const Tours = ({tours, removetour}) => {
   return (
-    <div>
-        <div>
+    <div className='container'>
+        <div className='heading'>
             <h2>plan with love</h2>
         </div>
 
-        <div>
+        <div className='cards' >
 
             {
                  tours.map( (tour)=>{
